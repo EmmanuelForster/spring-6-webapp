@@ -1,9 +1,9 @@
 package bootcamp.springframework.spring6webapp.repository;
 
-import bootcamp.springframework.spring6webapp.domain.Publisher;
+import bootcamp.springframework.spring6webapp.domain.Book;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PublisherRepository extends CrudRepository<Publisher, Long> {
+public interface IBookRepository extends CrudRepository<Book, Long> {
 }
